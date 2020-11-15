@@ -14,7 +14,7 @@ if(cmd === `${prefix}ping `) {
           // Basic embed
             var embed = new Discord.MessageEmbed()
             .setAuthor(`Your ping is ${ping}`)
-            .setColor("Your Color")
+            .setColor(COLOR)
             
             // Then It Edits the message with the ping variable embed that you created
             m.edit(embed)
